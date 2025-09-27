@@ -1,40 +1,26 @@
 # Frontend Developer Assignment
 
-Recreate the provided Figma **home page design** using Nuxt 3 + Vue 3 + TailwindCSS, and verify layout fidelity using **Pixelay**.
-
----
-
-Features Implemented  
-
-- Navbar/Header — responsive with hamburger toggle for mobile, CTA button, and smooth transition.  
-- **Hero Section — headline, subtext, buttons, and image, with subtle animation.  
-- **Features Section — grid-based cards with icons, titles, and descriptions.  
-- **CTA Section— two-column layout (text + image) with responsive stacking.  
-- Logo Carousel — auto-scroll with pause-on-hover interactivity.  
-- Footer — links, social icons (Twitter, YouTube, LinkedIn, Instagram, Facebook).  
+Recreate the provided Figma **home page design** using Nuxt 3 + Vue 3 + TailwindCSS, and verify layout fidelity using **Pixelay**.  
 
 Interactivity  
 - Mobile menu toggle  
-- Hero image animation  
-- Logo carousel  
+- Light/dark mode 
 
 Responsiveness  
-- Fully responsive across mobile, tablet.  
-
----
+- Fully responsive across mobile(iphone), tablet(ipad),Pc.  
 
 Pixelay Evidence  
 
 `/pixelay` folder contains:  
-- `pixelay-desktop.png`  
-- `pixelay-mobile.png`  
-- `notes.md` — short notes on minor spacing/font differences.  
+- `pixelay-pc.png`  
+- `pixelay-iphone.png`
+- pixelay -ipad.png
+- `notes.md` — short note 
 
 ---
 
 ## Live Demo  
-1.https://figma-assignment-8no1pte9n-saba-1as-projects.vercel.app/
-2.https://figma-assignment-umber-three.vercel.app/
+1.https://intellitoggle-website.vercel.app/
 
 ---
 Tech Stack  
@@ -49,7 +35,7 @@ Setup Instructions
 Clone the repo:  
 
 ```bash
-git clone https://github.com/saba-1A/figma-assignment.git
-cd figma-assignment
+git clone https://github.com/saba-1A/Intellitoggle-Website.git
+cd Intellitoggle-Website
 npm install
 npm run dev
