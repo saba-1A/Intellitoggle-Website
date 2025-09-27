@@ -3,3 +3,4 @@
 - Interactive elements were included as requested — mobile menu toggle, dark/light mode, and button interactions.
 - Buttons and UI components match the Figma design in style and behavior.
 - Total time spent on the implementation was approximately 2 days.
+small note in pics uploaded here pc is named under ipad and ipad is in pic file
