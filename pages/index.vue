@@ -1,31 +1,51 @@
+<!-- pages/index.vue -->
 <template>
   <div>
-    
     <!-- Navbar -->
     <Navbar />
 
     <!-- Hero Section -->
     <HeroSection />
 
-    <!-- Features Section -->
-    <FeaturesSection />
+    <!-- Logos-->
+    <LogoSection />
 
-    <!-- CTA Section -->
-    <CTASection />
+    <!--intellitoggle-section-->
+    <intellitoggle-Section/>
 
-    <!-- Footer -->
-    <Footer />
+    <!--Features--Section-->
+    <FeaturesSection/>
+    
+    <!--Section--Container-->
+  <SectionContainer/>
+
+  <!--Design--System-->
+  <DesignSystem/>
+
+  <!--CTASection-->
+  <CTASection/>
+
+  <!--PromoSection-->
+  <PromoSection/>
+
+  <!--WhyTeamUse-->
+  <WhyTeamsUse/>
+
+  <!--Footer-->
+  <Footer/>
   </div>
 </template>
 
 <script setup>
-// Auto-import works in Nuxt 3 for components inside /components
-// If auto-import is disabled, uncomment to import:
-
-// import CustomCursor from '~/components/CustomCursor.vue'
-// import Navbar from '~/components/Navbar.vue'
-// import HeroSection from '~/components/HeroSection.vue'
-// import FeaturesSection from '~/components/FeaturesSection.vue'
-// import CTASection from '~/components/CTASection.vue'
-// import Footer from '~/components/Footer.vue'
+import Navbar from '~/components/Navbar.vue'
+import HeroSection from '~/components/HeroSection.vue'
+import LogoSection from '~/components/LogoSection.vue'
+import intellitoggleSection from '~/components/intellitoggle-section.vue'
+import FeaturesSection from '~/components/FeaturesSection.vue' 
+import SectionContainer from '~/components/SectionContainer.vue'
+import DesignSystem from '~/components/DesignSystem.vue'
+import CTASection from '~/components/CTASection.vue'
+import PromoSection from '~/components/PromoSection.vue'
+import WhyTeamsUse from '~/components/WhyTeamsUse.vue'
+import Footer from '~/components/Footer.vue'
 </script>
