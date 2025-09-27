@@ -65,7 +65,7 @@
         IntelliToggle is built by AORTEM, a company focused on powering scalable, multi-platform developer tools.
       </p>
      <img
-  src="/github.png"
+  src="/GitHub.png"
   alt="GitHub"
   class="w-8 h-8"
 />
