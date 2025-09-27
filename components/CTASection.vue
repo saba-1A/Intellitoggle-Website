@@ -1,18 +1,18 @@
 <template>
   <section class="hero-section">
-    <!-- ✅ Button -->
+    <!-- Button -->
     <div class="custom-layer">
       Coming Soon
     </div>
 
-    <!-- ✅ Heading -->
+    <!-- Heading -->
     <h1 class="hero-title">
       DartCodeAI That Actually Changes Flagging
     </h1>
 
-    <!-- ✅ 4 Feature Boxes -->
+    <!--  4 Feature Boxes -->
     <div class="features-wrapper">
-      <!-- ✅ Feature 1 -->
+      <!--  Feature 1 -->
       <div class="feature-box with-icon">
         <div class="icon-box">
           <img src="/icon1.png" alt="icon" />
@@ -25,7 +25,7 @@
         </div>
       </div>
 
-      <!-- ✅ Feature 2 -->
+      <!--  Feature 2 -->
       <div class="feature-box with-icon">
         <div class="icon-box">
           <img src="/icon2.png" alt="icon" />
@@ -38,7 +38,7 @@
         </div>
       </div>
 
-      <!-- ✅ Feature 3 -->
+      <!--  Feature 3 -->
       <div class="feature-box with-icon">
         <div class="icon-box">
           <img src="/icon3.png" alt="icon" />
@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <!-- ✅ Feature 4 -->
+      <!-- Feature 4 -->
       <div class="feature-box with-icon">
         <div class="icon-box">
           <img src="/icon4.png" alt="icon" />
@@ -65,10 +65,10 @@
       </div>
     </div>
 
-    <!-- ✅ Enterprise Only above bottom box -->
+    <!--  Enterprise Only above bottom box -->
     <div class="enterprise-label">Enterprise Only</div>
 
-    <!-- ✅ Bottom Wide Box -->
+    <!--  Bottom Wide Box -->
     <div class="bottom-box">
       <p class="bottom-text">
         <span class="highlight-text">Be The First To Try Our New AI Features.</span>
@@ -140,7 +140,7 @@ const submitEmail = () => {
   margin: 0 0 8px 0;
 }
 
-/* ✅ Feature grid */
+/*  Feature grid */
 .features-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -213,12 +213,12 @@ const submitEmail = () => {
   font-weight: 600;
 }
 
-/* ✅ Bottom Box */
+/*  Bottom Box */
 .bottom-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px; /* ✅ spacing between text + input */
+  gap: 24px; /*  spacing between text + input */
   padding: 18px;
   width: 100%;
   max-width: 1100px;
@@ -270,7 +270,7 @@ const submitEmail = () => {
   padding: 0;
   font-size: inherit;
 }
-/* ✅ Tablet (iPad) */
+/* Tablet (iPad) */
 @media (max-width: 1024px) {
   .bottom-box {
     flex-direction: column;
@@ -288,7 +288,7 @@ const submitEmail = () => {
   }
 }
 
-/* ✅ Mobile (iPhone) */
+/* Mobile (iPhone) */
 @media (max-width: 600px) {
   .hero-section {
     padding: 60px 20px;
@@ -330,12 +330,12 @@ const submitEmail = () => {
     text-align: center;
   }
 }
-/* ✅ iPad & small tablets */
+/*  iPad & small tablets */
 @media (max-width: 1024px) and (min-width: 481px) {
   .email-box {
     padding: 8px 12px;
     gap: 8px;
-    max-width: 360px;   /* ✅ Prevents it from stretching too wide */
+    max-width: 360px;   /* Prevents it from stretching too wide */
   }
 
   .email-input {

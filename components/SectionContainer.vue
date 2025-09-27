@@ -113,7 +113,7 @@
 </template>
 
 <style scoped>
-/* 📱 Mobile (iPhone) */
+/* Mobile (iPhone) */
 @media (max-width: 767px) {
   section {
     padding: 40px 20px !important;
@@ -150,7 +150,7 @@
   }
 }
 
-/* 💻 iPad (768px – 1024px) */
+/* iPad (768px – 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   section {
     padding: 80px 40px !important;
@@ -172,7 +172,7 @@
   .features-row > div {
     flex: 0 0 auto;
     width: 420px !important;
-    min-height: auto !important; /* ✅ no fixed height */
+    min-height: auto !important; /*  no fixed height */
   }
 
   button {

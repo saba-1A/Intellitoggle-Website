@@ -195,7 +195,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
-/* 📱 Tablet styles */
+/*  Tablet styles */
 @media (min-width: 769px) and (max-width: 1024px) {
   .feature-wrapper {
     padding: 64px;
@@ -250,7 +250,7 @@
     margin: 0;
   }
 
-  /* 🔘 Tablet Button */
+  /*  Tablet Button */
   .learn-more {
     display: flex;
     align-items: center;

@@ -5,7 +5,7 @@ import { ref, onMounted } from "vue";
 const isDark = ref(true); // default dark mode
 const isOpen = ref(false); // mobile menu open/close
 
-// ✅ Load saved theme OR default
+// Load saved theme OR default
 onMounted(() => {
   const savedTheme = localStorage.getItem("theme");
 
@@ -18,7 +18,7 @@ onMounted(() => {
   }
 });
 
-// ✅ Toggle theme + add/remove dark class on <html>
+//  Toggle theme + add/remove dark class on <html>
 const toggleTheme = () => {
   isDark.value = !isDark.value;
   const html = document.documentElement;

@@ -1,10 +1,10 @@
 <template>
-  <!-- ✅ Outer CTA Section -->
+  <!--  Outer CTA Section -->
   <section
     class="w-full flex justify-center items-center"
     style="padding-top: 120px; padding-bottom: 200px; background: #FFFFFF;"
   >
-    <!-- ✅ Narrow Container -->
+    <!-- Narrow Container -->
     <div class="w-full max-w-[1100px] px-[20px] mx-auto">
       <div
         class="flex flex-col justify-center items-center gap-[10px]"
@@ -53,7 +53,7 @@
     </div>
   </section>
 
-  <!-- ✅ Footer -->
+  <!--  Footer -->
  <footer class="w-full bg-[#F3F2F8] py-10 px-6 md:px-12 lg:px-16">
   <div
     class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10"

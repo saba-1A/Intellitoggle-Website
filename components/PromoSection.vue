@@ -41,14 +41,14 @@
       <button
         class="w-[371px] h-[59px] px-[20px] py-[10px] rounded-[8px] bg-[#F9A71E] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] flex items-center justify-center"
       >
-        <!-- ✅ Desktop & Mobile -->
+        <!-- Desktop & Mobile -->
         <span
           class="price-text font-[Inter] font-semibold text-[18px] leading-none bg-gradient-to-b from-[#42389E] to-[#0F1026] bg-clip-text text-transparent desktop-text"
         >
           View Subscription Details
         </span>
 
-        <!-- ✅ iPad text -->
+        <!-- iPad text -->
         <span
           class="price-text font-[Inter] font-semibold text-[18px] leading-none bg-gradient-to-b from-[#42389E] to-[#0F1026] bg-clip-text text-transparent ipad-text"
         >
@@ -97,7 +97,7 @@
 </script>
 
 <style scoped>
-/* ✅ Default states */
+/*  Default states */
 .desktop-text {
   display: inline;
 }
@@ -105,7 +105,7 @@
   display: none;
 }
 
-/* ✅ iPad / Tablet layout (only 768px–1024px) */
+/*  iPad / Tablet layout (only 768px–1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
   /* Center the white section and make it fit properly */
   .promo-banner {
@@ -137,10 +137,10 @@
     padding-right: 40px !important;
   }
 
-  /* ✅ Reduced font sizes */
+  /*  Reduced font sizes */
   .promo-banner h2 {
     font-size: 26px;
-    margin-bottom: 19px;   /* ✅ added gap here */
+    margin-bottom: 19px;   /* added gap here */
   }
 
   .promo-banner p {
@@ -151,7 +151,7 @@
     font-size: 14px;
   }
 }
-/* ✅ iPhone / Mobile layout (below 768px) */
+/* iPhone / Mobile layout (below 768px) */
 @media (max-width: 767px) {
   .promo-banner {
     width: 100%;
@@ -163,13 +163,13 @@
     align-items: center;
   }
 
-  /* ✅ Add gap between heading and text */
+  /*  Add gap between heading and text */
   .promo-banner h2 {
     margin-bottom: 10px;       /* space between heading & sentence */
     line-height: 1.2;
   }
 
-  /* ✅ Join sentence into one clean line + small gap after */
+  /* Join sentence into one clean line + small gap after */
   .promo-banner p {
     margin-bottom: 18px;       /* gap before buttons */
     line-height: 1.4;
@@ -194,13 +194,13 @@
     padding-right: 20px !important;
   }
 
-  /* ✅ Hide purple price card + its button */
+  /*  Hide purple price card + its button */
   .price-card,
   .price-card + button {
     display: none !important;
   }
 
-  /* ✅ Hide the main heading on mobile */
+  /* Hide the main heading on mobile */
   section > h1 {
     display: none !important;
   }

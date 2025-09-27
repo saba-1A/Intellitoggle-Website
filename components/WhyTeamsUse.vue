@@ -2,7 +2,7 @@
   <section
     class="max-w-screen-xl mx-auto flex flex-col items-center bg-white px-[80px] py-[120px] gap-[120px]"
   >
-    <!-- ✅ Heading (hidden on mobile) -->
+    <!-- Heading (hidden on mobile) -->
     <h2
       class="text-center font-[700] text-[32px] md:text-[40px] hidden md:block"
       style="
@@ -17,7 +17,7 @@
       Why Teams Use IntelliToggle
     </h2>
 
-    <!-- ✅ Features -->
+    <!-- Features -->
     <div
       class="w-full flex flex-col md:flex-row justify-between items-start gap-[40px] md:gap-[60px]"
     >
@@ -100,7 +100,7 @@
       </div>
     </div>
 
-    <!-- ✅ CTA Box (hidden on mobile) -->
+    <!-- CTA Box (hidden on mobile) -->
     <div
       class="w-full hidden md:flex justify-between items-center rounded-[12px] border border-[#42389E] bg-[#EDECF6] shadow-md px-[32px] py-[16px]"
     >

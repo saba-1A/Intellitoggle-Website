@@ -10,7 +10,7 @@
     fontFamily: 'Satoshi, sans-serif',
     fontSize: '40px',
     lineHeight: 'normal',
-    color: '#1A1C3D', // ✅ Solid dark text instead of gradient background
+    color: '#1A1C3D', // Solid dark text instead of gradient background
   }"
 >
   Dart-Powered Feature Flag
@@ -107,7 +107,7 @@ function scrollToRow(index) {
 </script>
 
 <style scoped>
-/* 📱 iPhone (0 – 767px) */
+/*  iPhone (0 – 767px) */
 @media (max-width: 767px) {
   section {
     padding: 40px 20px;
@@ -134,7 +134,7 @@ function scrollToRow(index) {
     font-weight: normal;
   }
 
-  /* ✅ hide <br> only on mobile */
+  /* hide <br> only on mobile */
   .body-text br {
     display: none;
   }
@@ -166,7 +166,7 @@ function scrollToRow(index) {
   }
 }
 
-/* 💻 iPad (768px – 1024px) */
+/*  iPad (768px – 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   section { padding: 80px 60px; gap: 28px; }
   .header-1 { text-align: left; font-size: 28px; line-height: 1.4; }
@@ -183,7 +183,7 @@ function scrollToRow(index) {
   .pager-btn.active { width: 36px; height: 8px; background: linear-gradient(180deg, #42389e 0%, #0f1026 100%); }
 }
 
-/* 🖥 Desktop (>1024px) */
+/* Desktop (>1024px) */
 @media (min-width: 1025px) {
   section { padding: 120px; gap: 32px; }
 
