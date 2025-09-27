@@ -19,7 +19,7 @@
 
       <!-- Show all logos on tablet & desktop -->
       <img src="/aws.svg" alt="AWS" class="hidden md:block h-10" />
-      <img src="/GoogleCloud.svg" alt="Google Cloud" class="hidden md:block h-10" />
+      <img src="/GoogleCloud.png" alt="Google Cloud" class="hidden md:block h-10" />
       <img src="/azure.svg" alt="Azure" class="hidden md:block h-10" />
       <img src="/digitalocean.svg" alt="DigitalOcean" class="hidden md:block h-10" />
       <img src="/ibm.svg" alt="IBM" class="hidden md:block h-10" />
