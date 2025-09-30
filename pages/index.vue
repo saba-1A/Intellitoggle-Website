@@ -13,13 +13,13 @@
     <!--intellitoggle-section-->
     <intellitoggle-Section/>
 
-    <!--Features--Section-->
+    <!--Features-Section-->
     <FeaturesSection/>
     
-    <!--Section--Container-->
+    <!--Section-Container-->
   <SectionContainer/>
 
-  <!--Design--System-->
+  <!--Design-System-->
   <DesignSystem/>
 
   <!--CTASection-->
